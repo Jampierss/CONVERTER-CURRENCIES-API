@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="407.0" style="-fx-background-color: #364045;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alura.transformerconverter.TransformerController">
+    <children>
+        <Pane prefHeight="103.0" prefWidth="407.0" style="-fx-background-color: #EEF1F5;">
+            <children>
+                <Label layoutX="85.0" layoutY="33.0" text="PEN">
+                    <font>
+                        <Font name="Verdana" size="20.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="currencySourceTextField" layoutX="212.0" layoutY="28.0" prefHeight="35.0" prefWidth="162.0" style="-fx-background-color: #EEF1F5; -fx-background-radius: 10; -fx-border-color: #364045; -fx-border-radius: 10; -fx-alignment: center-right;">
+                    <font>
+                        <Font size="15.0" />
+                    </font></TextField>
+                <ImageView fx:id="peruvianIcon" fitHeight="38.0" fitWidth="42.0" layoutX="28.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../images/peru.png" />
+                    </image></ImageView>
+                <Label layoutX="278.0" layoutY="68.0" text="Peruvian Soles">
+                    <font>
+                        <Font name="Verdana" size="12.0" />
+                    </font></Label>
+            </children></Pane>
+        <TextField fx:id="dollarTextField" layoutX="211.0" layoutY="142.0" prefHeight="35.0" prefWidth="162.0" style="-fx-background-radius: 10; -fx-border-color: #dcdcdc; -fx-border-radius: 10; -fx-alignment: center-right; -fx-background-color: #364045; -fx-text-fill: #EEF1F5;">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Label layoutX="310.0" layoutY="182.0" text="US Dollar" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="12.0" />
+            </font>
+        </Label>
+        <TextField fx:id="euroTextField" layoutX="211.0" layoutY="209.0" prefHeight="35.0" prefWidth="162.0" style="-fx-background-radius: 10; -fx-border-color: #dcdcdc; -fx-border-radius: 10; -fx-alignment: center-right; -fx-background-color: #364045; -fx-text-fill: #EEF1F5;">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Label layoutX="338.0" layoutY="246.0" text="Euro" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="12.0" />
+            </font>
+        </Label>
+        <TextField fx:id="yenTextField" layoutX="211.0" layoutY="277.0" prefHeight="35.0" prefWidth="162.0" style="-fx-background-radius: 10; -fx-border-color: #dcdcdc; -fx-border-radius: 10; -fx-alignment: center-right; -fx-background-color: #364045; -fx-text-fill: #EEF1F5;">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="sterlingTextField" layoutX="211.0" layoutY="344.0" prefHeight="35.0" prefWidth="162.0" style="-fx-background-radius: 10; -fx-border-color: #dcdcdc; -fx-border-radius: 10; -fx-alignment: center-right; -fx-background-color: #364045; -fx-text-fill: #EEF1F5;">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="koreanTextField" layoutX="211.0" layoutY="414.0" prefHeight="35.0" prefWidth="162.0" style="-fx-background-radius: 10; -fx-border-color: #dcdcdc; -fx-border-radius: 10; -fx-alignment: center-right; -fx-background-color: #364045; -fx-text-fill: #EEF1F5;">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Label layoutX="287.0" layoutY="315.0" text="Japanese Yen" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="279.0" layoutY="383.0" text="Pound sterling" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="255.0" layoutY="452.0" text="South Korean won" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="12.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="dollarIcon" fitHeight="43.0" fitWidth="36.0" layoutX="32.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/estados-unidos-de-america.png" />
+            </image></ImageView>
+        <Label layoutX="86.0" layoutY="147.0" text="USD" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="20.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="euroIcon" fitHeight="36.0" fitWidth="36.0" layoutX="32.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/union-europea.png" />
+            </image></ImageView>
+        <Label layoutX="86.0" layoutY="214.0" text="EUR" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="20.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="yenIcon" fitHeight="36.0" fitWidth="36.0" layoutX="32.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/japon.png" />
+            </image></ImageView>
+        <Label layoutX="86.0" layoutY="282.0" text="JPY" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="20.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="sterlingIcon" fitHeight="36.0" fitWidth="36.0" layoutX="32.0" layoutY="343.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/reino-unido.png" />
+            </image></ImageView>
+        <Label layoutX="86.0" layoutY="349.0" text="GBP" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="20.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="koreanIcon" fitHeight="38.0" fitWidth="33.0" layoutX="32.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/corea-del-norte.png" />
+            </image></ImageView>
+        <Label layoutX="86.0" layoutY="418.0" text="KRW" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

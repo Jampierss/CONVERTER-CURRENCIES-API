@@ -12,7 +12,7 @@
 
 ## Screenshots
 
-Include screenshots of your application here.
+![Application Screenshot](https://github.com/Jampierss/Converter-Using-API/src/main/resources/images/screenshot.JPG)
 
 ## Getting Started
 
